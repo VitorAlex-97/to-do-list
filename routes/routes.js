@@ -1,6 +1,7 @@
 const routes = require('express').Router(); 
-const taskController = require('../controller/TaskController');
+const TaskController = require('../controller/TaskController');
 
-routes.get('/', taskController.getAll);
+routes.get('/', TaskController.getAllTasks);
+routes.post('/create', TaskController.createTask);
 
 module.exports = routes;
