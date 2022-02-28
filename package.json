@@ -1,0 +1,14 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "Projeto para praticar nodeJS MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitor Alex",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
